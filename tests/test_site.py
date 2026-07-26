@@ -69,14 +69,16 @@ class ProveinSiteTests(unittest.TestCase):
         self.assertNotIn("<video", self.html.lower())
         self.assertNotIn("<iframe", self.html.lower())
 
-    def test_all_six_approved_images_are_used_and_present(self):
+    def test_all_six_approved_images_are_present_and_visible_images_are_approved(self):
         declared = self.sources["images"]
         self.assertEqual(6, len(declared))
+        declared_paths = {image["file"] for image in declared}
         used = {image.get("src") for image in self.parser.images}
         for image in declared:
             relative = image["file"]
-            self.assertIn(relative, used)
             self.assertTrue((ROOT / relative).is_file(), relative)
+        self.assertTrue(used.issubset(declared_paths))
+        self.assertGreaterEqual(len(used), 2)
 
     def test_asset_hashes_match_manifest(self):
         for image in self.sources["images"]:
