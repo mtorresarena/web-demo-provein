@@ -1,0 +1,14 @@
+{
+  "slug": "provein",
+  "identity": {
+    "name": "PROVEIN Jerez",
+    "legalName": "Proveedora del Vehículo Industrial, S.L."
+  },
+  "contact": {
+    "phoneDisplay": "956 141 859",
+    "phoneHref": "+34956141859",
+    "email": "jerez@provein.net",
+    "address": "Pol. Industrial Bertola, Nave 27, 11408 Jerez de la Frontera, Cádiz"
+  },
+  "marker": "PROVEIN-DEMO-20260726"
+}

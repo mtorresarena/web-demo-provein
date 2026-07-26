@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "site": "/root/repos/web-demo-provein",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "http": 200,
+      "overflow": false,
+      "offscreen": [],
+      "broken": [],
+      "errors": []
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "http": 200,
+      "overflow": false,
+      "offscreen": [],
+      "broken": [],
+      "errors": []
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "http": 200,
+      "overflow": false,
+      "offscreen": [],
+      "broken": [],
+      "errors": []
+    }
+  ],
+  "noJavaScriptContent": true
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "usage": "Demo interna; confirmar permiso y vigencia antes de publicar.",
+  "policy": "Material procedente exclusivamente de la web oficial de PROVEIN. Las imágenes se muestran contenidas y sin ampliación respecto a su tamaño útil.",
+  "images": [
+    {
+      "file": "public/assets/logo-header.jpg",
+      "role": "logo",
+      "source": "https://www.provein.net/img/cabecera.jpg",
+      "width": 1020,
+      "height": 102,
+      "sha256": "661b5cd9229948c74e31cb4fd873b95bce70477bb404e04401531f704c38aaec"
+    },
+    {
+      "file": "public/assets/hero-camion.jpg",
+      "role": "hero",
+      "source": "https://www.provein.net/img/fondo_index2A.jpg",
+      "width": 2160,
+      "height": 1107,
+      "source_width": 720,
+      "source_height": 369,
+      "display_limit_width": 720,
+      "sha256": "cb57a2aebb19ca0007e490d73fbe917964d04b6879ded6e819df99121029365f",
+      "note": "Reescalado Lanczos no generativo; tamaño visible limitado a la resolución fuente."
+    },
+    {
+      "file": "public/assets/apoyo-catalogo.jpg",
+      "role": "support",
+      "source": "https://www.provein.net/img/catalogo.jpg",
+      "width": 640,
+      "height": 400,
+      "sha256": "452c0e4f47488054861bca107d2c2e2416aa2cb8353a46dacb922a8af06534ac"
+    },
+    {
+      "file": "public/assets/apoyo-recambios.jpg",
+      "role": "support",
+      "source": "https://www.provein.net/img/derecha_inicio.jpg",
+      "width": 197,
+      "height": 282,
+      "sha256": "aec569d302fa07b84de7fde62d0daa2b22ac6fe24ec4a3b79aca4212d99ceba1"
+    },
+    {
+      "file": "public/assets/apoyo-servicio.jpg",
+      "role": "support",
+      "source": "https://www.provein.net/img/derecha_inicio2.jpg",
+      "width": 261,
+      "height": 283,
+      "sha256": "c54c0596985d8b2fcf92a5f640c79fbdfde9df778dc7ecefc8770f01b195f4aa"
+    },
+    {
+      "file": "public/assets/apoyo-empresa.jpg",
+      "role": "support",
+      "source": "https://www.provein.net/img/derecha_nosotros.jpg",
+      "width": 282,
+      "height": 197,
+      "sha256": "68d726433df7e0890869139f5985d291332870d81caf0bccd315cb9859fac9b3"
+    }
+  ]
+}
